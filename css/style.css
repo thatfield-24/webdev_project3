@@ -11,7 +11,6 @@ nav a {
   text-decoration: none;
   padding: 16px;
   color: white;
-  font-size: 2vw;
   font-family: "Big Shoulders Stencil", "Garamond", serif;
 }
 
@@ -31,7 +30,6 @@ body {
 
 h1 {
   text-align: left;
-  font-size: 3.5vw;
 }
 
 h2 {
@@ -48,20 +46,6 @@ h4 {
   font-size: 1.5vw;
   display: inline-table;
   margin: -5px 0px;
-}
-
-img,video {
-  display: block;
-  margin: auto;
-  height: auto;
-  width: auto;
-  min-height: 12.5%;
-  min-width: 12.5%;
-  max-height: 25%;
-  max-width: 25%;
-  border-radius: 10px;
-  border-width: 2px;
-  border-style: solid
 }
 
 body {
