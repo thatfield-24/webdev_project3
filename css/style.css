@@ -18,14 +18,15 @@ nav a:hover {
   background-color: green;
 }
 
-p {
-  font-size: 1.5vw;
+#map {
+  height: 100%;
+	width: 100%
 }
-
 body {
   background-color: gray;
   font-family: "Courier New", monospace;
   text-align: center;
+	margin: 25px;
 }
 
 h1 {
@@ -33,8 +34,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-  font-size: 3vw;	
+  display: block;	
 }
 
 h3 {
@@ -46,11 +46,6 @@ h4 {
   font-size: 1.5vw;
   display: inline-table;
   margin: -5px 0px;
-}
-
-body {
-  max-width: 1400px;
-  margin: 10px;
 }
 
 li{
@@ -138,9 +133,8 @@ li{
 
 /* About Me Styling */
 .captions {
-  font-size: 1.25vw;
+	margin-top: 10px;
 }
-
 .timeline {
   position: relative;
   padding: 20px;
@@ -176,10 +170,9 @@ li{
 }
 
 .event-date {
-  font-weight: bold;
   margin: -5px 0px;
 }
 
-.event-title {
-  font-size: 1.5vw;
+.event-title{
+	font-style: italic;
 }
