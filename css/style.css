@@ -20,7 +20,7 @@ nav a:hover {
 
 #map {
   height: 100%;
-	width: 100%
+	width: 400px;
 }
 body {
   background-color: gray;
