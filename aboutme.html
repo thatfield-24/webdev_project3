@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/mobile.css">
+	<script type="text/javascript" src="slider.js"></script>
 </head>
 <body>
   <nav>
@@ -33,7 +34,26 @@
         <div class="timeline-event">
           <p class="event-title">Camped in Tennessee</p>
 					<p class="event-date">June 2024</p>
-	  <img src="media/tennessee.jpg" alt="Sunset from the top of a mountain in tennessee">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="media/tennessee.jpg" alt="Sunset from the top of a mountain in tennessee">
+					  </div>
+						<div class="mySlides fade">
+              <img src="media/mtcammerer.jpg" alt="View from the top of Mt. Cammerer Lookout at 4,812 feet.">
+						</div>
+						<div class="mySlides fade">
+              <img src="media/smallstream.jpg" alt="Small stream in Smoky Mountains">
+            </div>
+          </div>
+          <div>
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        
+		
 	  <p class="captions">After I graduated highschool I spent a week hiking with my friends in the Great Smoky Mountains. When I returned home from Tennessee I spent a short week back home before I also got to fly to Europe. </p>
         </div>
         <div class="timeline-event">
