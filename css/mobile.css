@@ -1,18 +1,18 @@
 /* Phone Sizing */
 @media (min-width: 320px){
-	p {
+  p {
     font-size: 6vw;
   }
-	nav a {
+  nav a {
     font-size: 6vw;
   }
-	h1 {
-	  font-size: 14vw;	
-	}
-	h2 {
+  h1 {
+    font-size: 14vw;	
+  }
+  h2 {
     font-size: 12vw;	
   }
-	img,video {
+  img,video {
     display: block;
     margin: auto;
     height: auto;
@@ -25,31 +25,30 @@
     border-width: 2px;
     border-style: solid
   }
-	.captions {
+  .captions {
     font-size: 6vw;
   }
-	.event-date {
-		margin: 15px 0px;
-	  font-size: 7vw;
+  .event-date {
+    margin: 15px 0px;
+    font-size: 7vw;
   }
   .event-title {
     font-size: 7vw;
-  }
-	
+  }	
 }
 
 /* Tablet Or Large Phone */
 @media (min-width: 768px){
-	p {
+  p {
     font-size: 2.5vw;
   }
-	nav a {
+  nav a {
     font-size: 3vw;
   }
-	h1 {
+  h1 {
     font-size: 4.5vw;
   }
-	h2 {
+  h2 {
     font-size: 4vw;	
   }
   img,video {
@@ -65,11 +64,11 @@
     border-width: 2px;
     border-style: solid
   }
-	.captions {
+  .captions {
     font-size: 2.5vw;
   }
-	.event-date {
-	  font-size: 2.75vw;
+  .event-date {
+    font-size: 2.75vw;
   }
   .event-title {
     font-size: 2.75vw;
@@ -78,16 +77,16 @@
 
 /* Laptop Sizing */
 @media (min-width: 1000px){
-	p {
+  p {
     font-size: 2vw;
   }
-	nav a {
+  nav a {
     font-size: 2vw;
   }
-	h1 {
+  h1 {
     font-size: 3.5vw;
   }
-	h2 {
+  h2 {
     font-size: 3vw;	
   }
   img,video {
@@ -103,11 +102,11 @@
     border-width: 2px;
     border-style: solid
   }
-	.captions {
+  .captions {
     font-size: 1.5vw;
   }
-	.event-date {
-	  font-size: 1.75vw;
+  .event-date {
+    font-size: 1.75vw;
   }
   .event-title {
     font-size: 1.75vw;
