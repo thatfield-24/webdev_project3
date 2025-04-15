@@ -11,7 +11,7 @@ nav a {
   text-decoration: none;
   padding: 16px;
   color: white;
-  font-family: "Big Shoulders Stencil", "Garamond", serif;
+  font-family: "Big Shoulders Stencil", "Garamond", "Times New Roman";
 }
 
 nav a:hover {
@@ -120,7 +120,7 @@ li{
 }
 
 .resume {
-  font-family: "Times New Roman", serif;
+  font-family: "Times New Roman", "Georgia";
   padding: 32px 24px;
   box-shadow: 0px 5px 20px;
   border: 2px solid black;
